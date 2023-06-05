@@ -1,6 +1,6 @@
 variable "tags" {}
-variable "subnets" {}
 variable "env" {}
+variable "subnets" {}
 variable "name" {
   default = "elasticache"
 }
@@ -11,8 +11,6 @@ variable "kms_arn" {}
 variable "port_no" {
   default = 6379
 }
-
-
-variable "node_type" {}
-variable "num_node_groups" {}
 variable "replicas_per_node_group" {}
+variable "num_node_groups" {}
+variable "node_type" {}
