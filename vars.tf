@@ -2,7 +2,7 @@ variable "tags" {}
 variable "subnets" {}
 variable "env" {}
 variable "name" {
-  default = "elasticcache"
+  default = "elasticache"
 }
 variable "vpc_id" {}
 variable "allow_db_cidr" {}
